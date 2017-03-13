@@ -23,7 +23,6 @@ Given a grid size and some axis points map the movements and print out how many 
 * E: east
 * W: west
 * D: drop
----
 * 5x5 (1, 3) (4, 4) => ENNNDEEEND
 
 
