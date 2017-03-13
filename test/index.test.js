@@ -4,14 +4,13 @@
 // import { checkPosition, outDirectionString, testIt } from '../lib/name';
 var expect = require('chai').expect;  
 // var Camo = require('camo');  
-var testMe = require("../lib/name.js");
+var testMe = require("../lib/index.js");
 
 var testArray = ['5x5','(1,2)'];
 var wrongArray = ['5x', '(1,2)'];
 
 var gridCorrect = ['5x5','(1,2)'];
 var gridWrong = ['5x5','(6,6)'];
-// console.log(testMe);
 
 describe('gridCorrect', function() {
   it('should work!', function() {

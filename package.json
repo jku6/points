@@ -2,7 +2,7 @@
   "name": "slice",
   "version": "1.0.0",
   "description": "first",
-  "main": "name.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
