@@ -16,6 +16,16 @@ node lib/index.js {input}
 * node lib/index.js 5x5 (1,2) (3,4)
 * node lib/index.js 3x3 '(1, 2)' '(3, 3)' '(2, 3)'
 
+#### Output meaning
+Given a grid size and some axis points map the movements and print out how many times they move and then drop at that given point
+* N: north
+* S: south
+* E: east
+* W: west
+* D: drop
+---
+* 5x5 (1, 3) (4, 4) => ENNNDEEEND
+
 
 
 
