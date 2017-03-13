@@ -1,0 +1,17 @@
+{
+  "name": "slice",
+  "version": "1.0.0",
+  "description": "first",
+  "main": "name.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
