@@ -1,9 +1,4 @@
-
-// import {expect} from 'chai';
-
-// import { checkPosition, outDirectionString, testIt } from '../lib/name';
 var expect = require('chai').expect;  
-// var Camo = require('camo');  
 var testMe = require("../lib/index.js");
 
 var testArray = ['5x5','(1,2)'];
