@@ -7,6 +7,20 @@ var wrongArray = ['5x', '(1,2)'];
 var gridCorrect = ['5x5','(1,2)'];
 var gridWrong = ['5x5','(6,6)'];
 
+var prevPosition = '(1,2)';
+var currentPosition = '(3,4)';
+
+
+describe('checkPosition', function() {
+	it('should work!', function() {
+		expect(testMe.checkPosition(prevPosition,currentPosition)).to.eql(['E','E','N','N','D']);
+	});
+
+	it('should not work!', function() {
+		expect(testMe.checkPosition(prevPosition,currentPosition)).to.not.eql(['E','E','N','D','D']);
+	});
+});
+
 describe('gridCorrect', function() {
   it('should work!', function() {
     expect(testMe.gridCorrect(testArray)).to.be.true;
